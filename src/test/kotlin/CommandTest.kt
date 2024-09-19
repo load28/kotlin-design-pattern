@@ -19,5 +19,6 @@ class CommandTest {
         invoker.setCommend(commandKimchi)
         // 공통 인터페이스 함수 호출
         assertEquals(invoker.execute(), "Cook Kimchi")
+        assertEquals(invoker.undo(), "None")
     }
 }
